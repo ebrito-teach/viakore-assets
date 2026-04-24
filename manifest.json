@@ -1,0 +1,79 @@
+{
+  "version": "1.0.0",
+  "updated_at": "2026-04-24",
+  "base_url": "https://ebrito-teach.github.io/viakore-assets",
+
+  "avatars": [
+    {
+      "id": "a1",
+      "name": "Avatar 1",
+      "category": "free",
+      "path": "/avatars/free/a1.png",
+      "unlock": {
+        "type": "default",
+        "requirement": null
+      }
+    },
+    {
+      "id": "a2",
+      "name": "Avatar 2",
+      "category": "free",
+      "path": "/avatars/free/a2.png",
+      "unlock": {
+        "type": "default",
+        "requirement": null
+      }
+    },
+    {
+      "id": "a3",
+      "name": "Avatar 3",
+      "category": "pro",
+      "path": "/avatars/pro/a3.png",
+      "unlock": {
+        "type": "plan",
+        "requirement": "pro"
+      }
+    },
+    {
+      "id": "a4",
+      "name": "Avatar 4",
+      "category": "pro",
+      "path": "/avatars/pro/a4.png",
+      "unlock": {
+        "type": "plan",
+        "requirement": "pro"
+      }
+    }
+  ],
+
+  "frames": [
+    {
+      "id": "f1",
+      "name": "Marco 1",
+      "category": "default",
+      "path": "/frames/default/f1.png",
+      "unlock": {
+        "type": "default",
+        "requirement": null
+      }
+    },
+    {
+      "id": "f2",
+      "name": "Marco 2",
+      "category": "pro",
+      "path": "/frames/pro/f2.png",
+      "unlock": {
+        "type": "plan",
+        "requirement": "pro"
+      }
+    }
+  ],
+
+  "unlock_types": {
+    "default":     "Disponible para todos desde el primer momento",
+    "plan":        "Requiere suscripción pro o institutional",
+    "achievement": "Se desbloquea al completar un logro específico (badge)",
+    "ranking":     "Se desbloquea al alcanzar cierta posición en el ranking global",
+    "seasonal":    "Disponible solo durante eventos o fechas específicas"
+  }
+}
