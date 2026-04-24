@@ -33,16 +33,6 @@
         "type": "plan",
         "requirement": "pro"
       }
-    },
-    {
-      "id": "a4",
-      "name": "Avatar 4",
-      "category": "pro",
-      "path": "/avatars/pro/a4.png",
-      "unlock": {
-        "type": "plan",
-        "requirement": "pro"
-      }
     }
   ],
 
@@ -68,6 +58,11 @@
       }
     }
   ],
+
+  "defaults": {
+    "avatar_id": "a1",
+    "frame_id": "f1"
+  },
 
   "unlock_types": {
     "default":     "Disponible para todos desde el primer momento",
